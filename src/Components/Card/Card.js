@@ -29,7 +29,7 @@ const card = () => {
           </label>
           <label className="block mb-12">
             <span className="block text-lg font-bold mb-4">Jenis Surat</span>
-            <select>
+            <select className="w-full">
               <option value="1"> Surat Keterangan Aktif Kuliah </option>
               <option value="2"> Surat Kelakuan Baik </option>
               <option value="3"> Surat Rekomendasi Beasiswa </option>
