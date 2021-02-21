@@ -5,7 +5,7 @@ import "./Hero.scss";
 
 const hero = () => {
   return (
-    <div className="hero flex w-4/5 items-center justify-center mx-auto py-28">
+    <div className="hero flex w-10/12 items-center justify-center mx-auto py-28">
       <div className="hero__tagline mr-20">
         <h1 className="text-4xl font-bold mb-4">
           Mau Kuliah Gratis? Daftarkan dirimu <br /> dalam Program Beasiswa

@@ -6,7 +6,7 @@ import "./Navbar.scss";
 const Navbar = () => {
   return (
     <nav className="navbar mx-auto w-full px-16 py-5">
-      <div className="navbar__top text-right text-white text-sm mb-4 text-sm">
+      <div className="navbar__top text-right text-white text-sm mb-4">
         <a href="/" className="navbar__top-item mr-4">
           AKREDITASI
         </a>
@@ -36,19 +36,22 @@ const Navbar = () => {
             </p>
           </div>
           <div className="navbar__bottom-items text-base">
-            <a href="/" className="navbar__bottom-item">
+            <a
+              href="/"
+              className="navbar__bottom-item active hover:font-bold active:font-bold"
+            >
               Beranda
             </a>
-            <a href="/" className="navbar__bottom-item">
+            <a href="/" className="navbar__bottom-item hover:font-bold">
               Sistem Akademik Terpadu
             </a>
-            <a href="/" className="navbar__bottom-item">
+            <a href="/" className="navbar__bottom-item hover:font-bold">
               Berita
             </a>
-            <a href="/" className="navbar__bottom-item">
+            <a href="/" className="navbar__bottom-item hover:font-bold">
               Info
             </a>
-            <a href="/" className="navbar__bottom-item">
+            <a href="/" className="navbar__bottom-item hover:font-bold">
               Feedback
             </a>
             <form className="w-56 inline mr-5 relative">

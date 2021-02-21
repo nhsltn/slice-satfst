@@ -1,0 +1,18 @@
+.SAT {
+  color: #00587a;
+
+  &__title {
+  }
+
+  &__content {
+    &-card {
+      flex: 1;
+      box-shadow: 0px 4px 4px 5px rgba(0, 88, 122, 0.2);
+      border-radius: 40px;
+    }
+
+    &-graph {
+      flex: 1;
+    }
+  }
+}
