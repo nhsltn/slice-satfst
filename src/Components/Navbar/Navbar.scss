@@ -1,0 +1,20 @@
+.navbar {
+  &__bottom {
+    &-brand {
+      font-family: "Alatsi", sans-serif;
+    }
+
+    &-item {
+      margin-right: 1rem;
+    }
+  }
+
+  &__top {
+  }
+}
+
+.fa-search {
+  position: absolute;
+  top: 2px;
+  right: 15px;
+}
