@@ -1,0 +1,13 @@
+.hero {
+  &__tagline {
+    flex: 2;
+
+    & h1 {
+      color: #dfa92e;
+    }
+  }
+
+  &__vector {
+    flex: 1;
+  }
+}
