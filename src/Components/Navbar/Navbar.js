@@ -6,7 +6,7 @@ import "./Navbar.scss";
 const Navbar = () => {
   return (
     <nav className="navbar mx-auto w-full px-16 py-5">
-      <div className="navbar__top text-right text-white text-sm mb-4">
+      <div className="navbar__top text-right text-white text-sm mb-4 text-sm">
         <a href="/" className="navbar__top-item mr-4">
           AKREDITASI
         </a>
@@ -35,7 +35,7 @@ const Navbar = () => {
               UIN Syarif Hidayatullah Jakarta
             </p>
           </div>
-          <div className="navbar__bottom-items">
+          <div className="navbar__bottom-items text-base">
             <a href="/" className="navbar__bottom-item">
               Beranda
             </a>
