@@ -2,12 +2,14 @@ import logo from "./logo.svg";
 import "./App.scss";
 import Header from "./Container/Header/Header";
 import SAT from "./Container/SAT/SAT";
+import News from "./Container/News/News";
 
 function App() {
   return (
     <div>
       <Header />
       <SAT />
+      <News />
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
