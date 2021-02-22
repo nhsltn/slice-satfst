@@ -15,16 +15,19 @@ class SAT extends Component {
           alt="wave"
           className="w-screen absolute -top-1 left-0 "
         />
-        <h1 className="SAT__title text-4xl font-bold pb-8 ml-24 mt-24">
-          Sistem Akademik Terpadu
-        </h1>
-        <div className="SAT__content w-10/12 mx-auto flex space-x-10 items-center">
-          <Card />
-          <div className="SAT__content-graph flex flex-col items-center">
-            <img className="max-w-4xl" src={Vector} alt="vector" />
-            <p className="font-semibold text-2xl text-center">
-              Ambil suratmu jika sudah tercetak di Lt.2 Ruang Kemahasiswaan FST
-            </p>
+        <div className="container mx-auto">
+          <h1 className="SAT__title text-4xl font-bold pb-8 mt-24 ">
+            Sistem Akademik Terpadu
+          </h1>
+          <div className="SAT__content flex w-11/12 mx-auto space-x-10 items-center">
+            <Card />
+            <div className="SAT__content-graph flex flex-col items-center">
+              <img className="max-w-4xl" src={Vector} alt="vector" />
+              <p className="font-semibold text-2xl text-center">
+                Ambil suratmu jika sudah tercetak di Lt.2 Ruang Kemahasiswaan
+                FST
+              </p>
+            </div>
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@ import "./Navbar.scss";
 
 const Navbar = () => {
   return (
-    <nav className="navbar mx-auto w-full px-16 py-5">
+    <nav className="navbar mx-auto w-11/12 py-5">
       <div className="navbar__top text-right text-white text-sm mb-4">
         <a href="/" className="navbar__top-item mr-4">
           AKREDITASI
