@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./Card.scss";
+import Button from "../Button/Button";
 
 const card = () => {
   return (
@@ -79,12 +80,16 @@ const card = () => {
             </select>
           </label>
           <div className="flex justify-between">
-            <button className="card__button-status py-2 px-10 rounded-full">
-              Cek Status
-            </button>
-            <button className="card__button-create text-white spy-2 px-10 rounded-full">
-              Buat Baru
-            </button>
+            <Button
+              children="Buat Baru"
+              border="border-2 border-primary border-solid"
+              txtcolor="txt-primary"
+            />
+            <Button
+              children="Cek Status"
+              bgcolor="bg-yellowclaw"
+              txtcolor="text-white"
+            />
           </div>
         </form>
       </div>

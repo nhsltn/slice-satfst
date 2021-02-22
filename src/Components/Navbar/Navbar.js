@@ -2,6 +2,7 @@ import React from "react";
 
 import Logo from "../../assets/img/logoexactfig.png";
 import "./Navbar.scss";
+import Button from "../Button/Button";
 
 const Navbar = () => {
   return (
@@ -63,9 +64,7 @@ const Navbar = () => {
               ></input>
               <i class="fas fa-search"></i>
             </form>
-            <button className="navbar__bottom-login bg-white text-black py-2 px-4 rounded-full">
-              Login
-            </button>
+            <Button children="Login" txtcolor="text-black" bgcolor="bg-white" />
           </div>
         </div>
       </div>
