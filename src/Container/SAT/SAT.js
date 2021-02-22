@@ -9,7 +9,7 @@ class SAT extends Component {
   state = {};
   render() {
     return (
-      <div className="SAT bg-white py-20 relative">
+      <div className="SAT text-primary bg-white py-20 relative">
         <img
           src={Wave}
           alt="wave"

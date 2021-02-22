@@ -59,7 +59,7 @@ const Navbar = () => {
                 type="search"
                 name="search"
                 placeholder="Search"
-                className="navbar__bottom-search bg-transparent border-2 border-white border-opacity-100 h-10 px-5 pr-10 rounded-full text-sm focus:outline-none "
+                className="navbar__bottom-search placeholder-white bg-transparent border-2 border-white border-opacity-100 h-10 px-5 pr-10 rounded-full text-sm focus:outline-none"
               ></input>
               <i class="fas fa-search"></i>
             </form>

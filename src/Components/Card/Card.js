@@ -4,23 +4,17 @@ import "./Card.scss";
 
 const card = () => {
   return (
-    <div className="SAT__content-card p-10 h-full">
+    <div className="SAT__content-card px-4 py-6 h-full">
       <div className="flex mb-10">
-        <button className="flex-auto card-button border-r-2 text-lg">
-          E-Letter
-        </button>
-        <button className="flex-auto card-button border-r-2 text-lg">
-          Fasilitas
-        </button>
-        <button className="flex-auto card-button border-r-2 text-lg">
-          E-Learning
-        </button>
-        <button className="flex-auto card-button text-lg">Form</button>
+        <button className="flex-auto card-button border-r-2">E-Letter</button>
+        <button className="flex-auto card-button border-r-2">Fasilitas</button>
+        <button className="flex-auto card-button border-r-2">E-Learning</button>
+        <button className="flex-auto card-button">Form</button>
       </div>
-      <div>
-        <form className="w-9/12 mx-auto">
+      <div className="w-9/12 mx-auto mb-6">
+        <form>
           <label className="block my-10">
-            <span className="block text-lg font-bold mb-4">NIM</span>
+            <span className="block font-bold mb-4">NIM</span>
             <input
               type="number"
               className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
@@ -28,7 +22,7 @@ const card = () => {
             />
           </label>
           <label className="block mb-12">
-            <span className="block text-lg font-bold mb-4">Jenis Surat</span>
+            <span className="block font-bold mb-10">Jenis Surat</span>
             <select className="w-full">
               <option value="1"> Surat Keterangan Aktif Kuliah </option>
               <option value="2"> Surat Kelakuan Baik </option>

@@ -9,18 +9,18 @@ const hero = () => {
       <div className="container mx-auto">
         <div className="flex items-center justify-center">
           <div className="hero__tagline">
-            <h1 className="text-4xl font-bold mb-4">
+            <h1 className="mb-4 text-yellowclaw">
               Mau Kuliah Gratis? Daftarkan dirimu <br /> dalam Program Beasiswa
               2020!!
             </h1>
-            <h2 className="text-white text-lg font-normal">
+            <p className="text-white font-normal">
               UIN Jakarta saat ini sedang membuka banyak kesempatan pada
               mahasiswa dan calon mahasiswa untuk mendapatkan beasiswa
               pendidikan, baik yang bersumber swasta maupun pemerintah pusat
               maupun daerah. Jenis pemberian beasiswa bervariasi ada beasiswa
               penuh (Full Scholarship) dan beasiswa..{" "}
               <span className="font-bold">Baca Selengkapnya</span>
-            </h2>
+            </p>
           </div>
           <div className="hero__vector flex flex-col items-center">
             <img src={HeroVector} alt="apaandahtuh" />
