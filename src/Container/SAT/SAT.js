@@ -10,13 +10,13 @@ class SAT extends Component {
   render() {
     return (
       <div className="SAT text-primary bg-white py-20 relative">
-        <img
+        {/* <img
           src={Wave}
           alt="wave"
           className="w-screen absolute -top-1 left-0 "
-        />
+        /> */}
         <div className="container mx-auto">
-          <h1 className="SAT__title text-4xl font-bold pb-8 mt-24 ">
+          <h1 className="SAT__title text-4xl font-bold pb-8">
             Sistem Akademik Terpadu
           </h1>
           <div className="SAT__content flex w-11/12 mx-auto space-x-10 items-center">

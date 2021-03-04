@@ -3,6 +3,7 @@ import Header from "./Container/Header/Header";
 import SAT from "./Container/SAT/SAT";
 import News from "./Container/News/News";
 import Critics from "./Components/Critics/Critics";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <SAT />
       <News />
       <Critics />
+      <Footer />
     </div>
   );
 }

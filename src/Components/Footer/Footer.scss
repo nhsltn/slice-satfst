@@ -1,0 +1,18 @@
+.footer {
+  &__main {
+    flex: 1;
+  }
+
+  &__item {
+    flex: 2;
+  }
+
+  &__bottom {
+    background-color: hsl(197, 96%, 20%);
+  }
+}
+
+.fab,
+.fas {
+  font-size: 1rem;
+}
